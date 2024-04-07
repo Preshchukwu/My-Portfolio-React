@@ -47,13 +47,14 @@ const Nav = () => {
                         <h3>Projects</h3>
                     </a>
 
-                    <a href="./about me" className="projectLink" id="projectLink">
+                    {/* <a href="./pages/About.jsx" className="projectLink" id="projectLink">
                         <h3>About Me</h3>
-                    </a>
+                    </a> */}
+
                     
-                    {/* <Link className="projectLink"   to={'/about me'} >
+                    <Link style={{textDecoration: `none`, fontSize: `1.1rem`, color: `black`, fontWeight: `700`}}  to={'/about me'} >
                       <p>About Me</p>
-                    </Link> */}
+                    </Link>
 
                     <a href="https://drive.google.com/file/d/1udY_4QsoIFceXRAvXUTf9UU8ijFdbMK0/view?usp=drivesdk" className="projectLink" id="projectLink" target='_blank'>
                         <h3>Resume</h3>
