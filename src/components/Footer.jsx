@@ -88,23 +88,23 @@ const Footer = () => {
 
                     <div className="footerLinkImagesContainer">
                         <a href="mailto:preciousnwachukwu.c@gmail.com" className="socialLink" target="_blank">
-                            <img src="public/basil_gmail-solid.svg" alt=""/>
+                            <img src="/basil_gmail-solid.svg" alt=""/>
                         </a>
 
                         <a href="https://github.com/Preshchukwu" className="socialLink" target="_blank">
-                            <img className="socialIcon" src="public/ant-design_github-outlined.svg" alt=""/>
+                            <img className="socialIcon" src="/ant-design_github-outlined.svg" alt=""/>
                         </a>
 
                         <a href="https://www.linkedin.com/in/preciouschukwu/" className="socialLink" target="_blank">
-                            <img src="public/bi_linkedin.svg" alt=""/>
+                            <img src="/bi_linkedin.svg" alt=""/>
                         </a>
 
                         <a href="https://twitter.com/Presh_chukwu" className="socialLink" target="_blank">
-                            <img src="public/pajamas_twitter.svg" alt=""/>
+                            <img src="/pajamas_twitter.svg" alt=""/>
                         </a>
 
                         <a href="https://www.behance.net/preciouschukwu" className="socialLink" target="_blank">
-                            <img src="public/mage_behance.svg" alt=""/>
+                            <img src="/mage_behance.svg" alt=""/>
                         </a>
                     </div>
                 </div>
