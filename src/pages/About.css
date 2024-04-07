@@ -1,0 +1,195 @@
+.aboutAndFooter{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFECFE;
+}
+
+.aboutSectionContainer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 120px 140px 120px;
+    background-color: #EFECFE;
+}
+
+.aboutTextContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutnameAndProfessionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutHelloNameContainer {
+    width: fit-content;
+    height: auto;
+}
+
+.aboutHelloNameContainer h2 {
+    font-size: 3rem;
+    color: #4831D4;
+}
+
+/* .ProfessionNameContainer {
+    width: auto;
+    height: auto;
+} */
+
+/* .ProfessionNameContainer h2 {
+    font-size: 4rem;
+    color: #4831D4;
+} */
+
+.aboutDescriptionTextContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutDescriptionTextContainer p {
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 24px;
+    color: #605f5f;
+}
+
+.aboutButtonContainer {
+    width: fit-content;
+    height: auto;
+}
+
+.aboutButtonContainer a {
+    text-decoration: none;
+}
+
+.aboutConnectButton {
+    background: none;
+    border: none;
+    padding: 1rem 4rem;
+    border: 2px solid #4831D4;
+    border-radius: 0.5rem;
+    color: #4831D4;
+    font-size: 1rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.aboutConnectButton:hover {
+    background: #4831D4;
+    font-size: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+@media(max-width: 576px){
+    .aboutSectionContainer {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            margin-top: 4rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 5rem;
+            justify-content: center;
+            align-items: center;
+            padding: 5rem 1rem;
+            background-color: #EFECFE;
+        }
+    
+        .aboutTextContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2rem;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .aboutnameAndProfessionContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .aboutHelloNameContainer {
+            width: fit-content;
+            height: auto;
+        }
+    
+        .aboutHelloNameContainer h2 {
+            font-size: 1.5rem;
+            color: #4831D4;
+        }
+    
+        .aboutDescriptionTextContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }
+    
+        .aboutDescriptionTextContainer p {
+            font-size: 1.1rem;
+            text-align: justify;
+            line-height: 24px;
+            color: #605f5f;
+        }
+    
+        .aboutButtonContainer {
+            width: fit-content;
+            height: auto;
+        }
+    
+        .aboutButtonContainer a {
+            text-decoration: none;
+        }
+    
+        .aboutConnectButton {
+            background: none;
+            border: none;
+            padding: 1rem 4rem;
+            border: 2px solid #4831D4;
+            border-radius: 0.5rem;
+            color: #4831D4;
+            font-size: 1rem;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+            transition-timing-function: ease-in-out;
+        }
+    
+        .aboutConnectButton:hover {
+            background: #4831D4;
+            font-size: 1rem;
+            color: #ffffff;
+            cursor: pointer;
+        }
+}

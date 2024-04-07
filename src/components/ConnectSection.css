@@ -1,0 +1,366 @@
+.connectWithMeSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 120px 180px 120px;
+}
+
+.connectWithMeSectionContentsContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.connectWithMeTopSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.connectWithMeTextContainer {
+    width: fit-content;
+    height: auto;
+}
+
+.connectWithMeTextContainer h2 {
+    font-size: 2rem;
+    color: #4831D4;
+}
+
+.connectWithMeDescriptionTextContainer {
+    width: 60%;
+    height: auto;
+}
+
+.connectWithMeDescriptionTextContainer p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.connectWithMeBottomSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connectWithMeBottomLeftContainer {
+    width: 50%;
+    height: auto;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 3rem;
+}
+
+.formContents {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.nameContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.nameInputField {
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border: 1px solid #605f5f;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.nameInputField:focus {
+    border: 2px solid #4831D4;
+}
+
+.emailContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.emailInputField {
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border: 1px solid #605f5f;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.emailInputField:focus {
+    border: 2px solid #4831D4;
+}
+
+.textAreaContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.textareaInputField {
+    width: 70%;
+    max-width: 70%;
+    height: auto;
+    resize: none;
+    border: none;
+    outline: none;
+    border: 1px solid #605f5f;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.textareaInputField:focus {
+    border: 2px solid #4831D4;
+}
+
+.sendMessageButton {
+    background: none;
+    border: none;
+    padding: 1rem 4rem;
+    border: 2px solid #4831D4;
+    border-radius: 0.5rem;
+    color: #4831D4;
+    font-size: 1rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+.sendMessageButton:hover {
+    background: #4831D4;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.connectWithMeBottomRightContainer {
+    width: 40%;
+    height: 70vh;
+    background-image: url("../../public/illustration.svg");
+}
+
+
+@media(max-width: 576px){
+    .connectWithMeSection {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 16px;
+        }
+    
+        .connectWithMeSectionContentsContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 5rem;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            padding: 3rem 1rem;
+        }
+    
+        .connectWithMeTopSection {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .connectWithMeTextContainer {
+            width: fit-content;
+            height: auto;
+        }
+    
+        .connectWithMeTextContainer h2 {
+            font-size: 1.5rem;
+            color: #4831D4;
+        }
+    
+        .connectWithMeDescriptionTextContainer {
+            width: 100%;
+            height: auto;
+        }
+    
+        .connectWithMeDescriptionTextContainer p {
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: center;
+        }
+    
+        .connectWithMeBottomSection {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .connectWithMeBottomRightContainer {
+            display: none;
+        }
+    
+        .form {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            row-gap: 3rem;
+        }
+    
+        .formContents {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            row-gap: 2rem;
+        }
+    
+        .nameContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.5rem;
+            justify-content: start;
+            align-items: start;
+        }
+    
+        .nameInputField {
+            width: 100%;
+            height: 50px;
+            border: none;
+            outline: none;
+            border: 1px solid #605f5f;
+            padding-left: 1rem;
+            border-radius: 0.5rem;
+        }
+    
+        .emailContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.5rem;
+            justify-content: start;
+            align-items: start;
+        }
+    
+        .emailInputField {
+            width: 100%;
+            height: 50px;
+            border: none;
+            outline: none;
+            border: 1px solid #605f5f;
+            padding-left: 1rem;
+            border-radius: 0.5rem;
+        }
+    
+        .textAreaContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.5rem;
+            justify-content: start;
+            align-items: start;
+        }
+    
+        .textareaInputField {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            resize: none;
+            border: none;
+            outline: none;
+            border: 1px solid #605f5f;
+            padding-left: 1rem;
+            padding-top: 1rem;
+            border-radius: 0.5rem;
+        }
+    
+        .sendMessageButton {
+            background: none;
+            border: none;
+            padding: 1rem 4rem;
+            border: 2px solid #4831D4;
+            border-radius: 0.5rem;
+            color: #4831D4;
+            font-size: 1rem;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+            transition-timing-function: ease-in-out;
+        }
+    
+        .sendMessageButton:hover {
+            background: #4831D4;
+            font-size: 1rem;
+            color: #fff;
+            cursor: pointer;
+        }
+    
+        .connectWithMeBottomLeftContainer {
+            width: 100%;
+            height: auto;
+        }
+}

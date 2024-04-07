@@ -1,0 +1,251 @@
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 100px 120px;
+    background-color: #4831D4;
+}
+
+.footerTwo{
+    display: none;
+}
+
+.footerContentsContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.footerTopContentsContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footerLeftContentsContainer {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    justify-content: start;
+    align-items: start;
+}
+
+.myNameContainer {
+    width: fit-content;
+    height: auto;
+}
+
+.myNameContainer h3 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.myDescriptionContainer {
+    width: 50%;
+    height: auto;
+}
+
+.myDescriptionContainer p {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.footerRightContentsContainer {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    justify-content: start;
+    align-items: start;
+}
+
+.footerSocialTextContainer {
+    width: fit-content;
+    height: auto;
+}
+
+.footerSocialTextContainer h3 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footerLinkImagesContainer {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.socialIcon {
+    color: #000000;
+}
+
+.footerBottomContentsContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLineContainer {
+    width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 1px solid #ffffff;
+}
+
+.copyRightContainer {
+    width: fit-content;
+    height: auto;
+}
+
+.copyRightContainer p {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+
+
+@media(max-width: 576px){
+    .footer {
+            display: none;
+            /* width: 100%;
+            height: auto;
+            padding: 100px 120px;
+            background-color: #4831D4; */
+        }
+    
+        .footerTwo {
+            display: block;
+            width: 100%;
+            height: auto;
+            padding: 40px 16px 100px 16px;
+            background-color: #4831D4;
+        }
+    
+        .footerContentsContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 5rem;
+        }
+    
+        .footerTopContentsContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 3rem;
+            justify-content: center;
+            align-items: start;
+        }
+    
+        .footerLeftContentsContainer {
+            width: fit-content;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1em;
+            justify-content: start;
+            align-items: start;
+        }
+    
+        .myNameContainer {
+            width: fit-content;
+            height: auto;
+        }
+    
+        .myNameContainer h3 {
+            font-weight: 600;
+            color: #ffffff;
+        }
+    
+        .myDescriptionContainer {
+            width: 100%;
+            height: auto;
+        }
+    
+        .myDescriptionContainer p {
+            font-size: 0.9rem;
+            color: #e8e5e5;
+        }
+    
+        .footerRightContentsContainer {
+            width: fit-content;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1em;
+            justify-content: start;
+            align-items: start;
+        }
+    
+        .footerSocialTextContainer {
+            width: fit-content;
+            height: auto;
+        }
+    
+        .footerSocialTextContainer h3 {
+            font-weight: 600;
+            color: #ffffff;
+        }
+    
+        .footerLinkImagesContainer {
+            width: fit-content;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            column-gap: 1rem;
+            justify-content: start;
+            align-items: center;
+        }
+    
+        .socialIcon {
+            color: #000000;
+        }
+    
+        .footerBottomContentsContainer {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 3rem;
+            justify-content: start;
+            align-items: start;
+        }
+    
+        .footerLineContainer {
+            width: 100%;
+            height: auto;
+        }
+    
+        hr {
+            border: 1px solid #ffffff;
+        }
+    
+        .copyRightContainer {
+            width: fit-content;
+            height: auto;
+        }
+    
+        .copyRightContainer p {
+            font-size: 0.9rem;
+            color: #ffffff;
+        }
+}
