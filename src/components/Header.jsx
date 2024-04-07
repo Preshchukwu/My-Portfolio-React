@@ -30,7 +30,7 @@ const Header = () => {
       <Nav></Nav>
 
 
-            <div onClick={()=>{toogleData()}} className="menuContainer" id="menu" >
+            <div onClick={()=>{toogleData()}} className="menuContainer" >
                 <img className="menu" src="public/menu.svg" alt=""/>
             </div>
     </div>

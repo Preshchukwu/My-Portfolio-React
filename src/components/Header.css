@@ -46,10 +46,11 @@
 
 @media(max-width:576px){
     .menuContainer {
-            display: block;
-        }
+        width: fit-content;
+        height: auto;
+        display: flex;
+    }
         
-
     .headerMainContainer {
             width: 100%;
             height: auto;
