@@ -18,7 +18,7 @@ const Header = () => {
       <Link className='link' to={'/'}>
          <div className="headerImageAndNameContainer">
                 <div className="headerImgContainer">
-                    <img src="/Myimg.svg" alt=""/>
+                    <img src="public/Myimg.svg" alt=""/>
                 </div>
 
                 <div className="headerNameContainer">
