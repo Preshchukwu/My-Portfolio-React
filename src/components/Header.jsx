@@ -31,7 +31,7 @@ const Header = () => {
 
 
             <div onClick={()=>{toogleData()}} className="menuContainer" >
-                <img className="menu" src="public/menu.svg" alt=""/>
+                <img className="menu" src="/menu.svg" alt=""/>
             </div>
     </div>
   )
