@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
     </div>
 
-    <section className="footerTwo" >
+    <section className="footerTwo" id='footer' >
         <div className="footerContentsContainer">
             <div className="footerTopContentsContainer">
                 <div className="footerRightContentsContainer">
