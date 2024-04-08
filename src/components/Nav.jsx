@@ -9,7 +9,6 @@ const Nav = () => {
 
 
   return (
-    
 
 
     <>
@@ -28,7 +27,7 @@ const Nav = () => {
         <p>About Me</p>
       </Link>
 
-      <Link className='link' to={'https://drive.google.com/file/d/1udY_4QsoIFceXRAvXUTf9UU8ijFdbMK0/view?usp=drivesdk'} target='_blank'>
+      <Link className='link' to={'https://drive.google.com/file/d/1DcOkAeHTsZbhhIsXaLiCKtVqqblM6PsD/view?usp=drivesdk'} target='_blank'>
         <p>Resume</p>
       </Link>
 
@@ -56,7 +55,7 @@ const Nav = () => {
                       <p>About Me</p>
                     </Link>
 
-                    <a href="https://drive.google.com/file/d/1udY_4QsoIFceXRAvXUTf9UU8ijFdbMK0/view?usp=drivesdk" className="projectLink" id="projectLink" target='_blank'>
+                    <a href="https://drive.google.com/file/d/1DcOkAeHTsZbhhIsXaLiCKtVqqblM6PsD/view?usp=drivesdk" className="projectLink" id="projectLink" target='_blank'>
                         <h3>Resume</h3>
                     </a>
     
