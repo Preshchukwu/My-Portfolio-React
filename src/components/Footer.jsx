@@ -25,14 +25,14 @@ const Footer = () => {
 
                     <div className="footerLinkImagesContainer">
                         <Link to={'mailto:preciousnwachukwu.c@gmail.com'} className="socialLink" target="_blank">
-                            <img src="public/basil_gmail-solid.svg" alt=""/>
+                            <img src="/basil_gmail-solid.svg" alt=""/>
                         </Link>
                         {/* <a href="mailto:preciousnwachukwu.c@gmail.com" className="socialLink" target="_blank">
                             <img src="./Images/basil_gmail-solid.svg" alt=""/>
                         </a> */}
 
                         <Link to={'https://github.com/Preshchukwu'} className="socialLink" target="_blank">
-                            <img src="public/ant-design_github-outlined.svg" alt="" className="socialIcon"/>
+                            <img src="/ant-design_github-outlined.svg" alt="" className="socialIcon"/>
                         </Link>
 
                         {/* <a href="https://github.com/Preshchukwu" className="socialLink" target="_blank">
@@ -40,7 +40,7 @@ const Footer = () => {
                         </a> */}
 
                         <Link to={'https://www.linkedin.com/in/preciouschukwu/'} className="socialLink" target="_blank">
-                            <img src="public/bi_linkedin.svg" alt="" />
+                            <img src="/bi_linkedin.svg" alt="" />
                         </Link>
 
                         {/* <a href="https://www.linkedin.com/in/preciouschukwu/" className="socialLink" target="_blank">
@@ -48,7 +48,7 @@ const Footer = () => {
                         </a> */}
 
                         <Link to={'https://twitter.com/Presh_chukwu'} className="socialLink" target="_blank">
-                            <img src="public/pajamas_twitter.svg" alt="" />
+                            <img src="/pajamas_twitter.svg" alt="" />
                         </Link>
 
                         {/* <a href="https://twitter.com/Presh_chukwu" className="socialLink" target="_blank">
@@ -56,7 +56,7 @@ const Footer = () => {
                         </a> */}
 
                         <Link to={'https://www.behance.net/preciouschukwu'} className="socialLink" target="_blank">
-                            <img src="public/mage_behance.svg" alt="" />
+                            <img src="/mage_behance.svg" alt="" />
                         </Link>
 
                         {/* <a href="https://www.behance.net/preciouschukwu" className="socialLink" target="_blank">
