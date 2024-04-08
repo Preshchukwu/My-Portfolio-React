@@ -11,7 +11,7 @@ const DesignAndDevSection = () => {
             </div>
 
             <div className="designDescriptionContainer">
-                <p className="deignDescription">I'm not your typical designer glued to an Illustrator artboard. Instead, I dive into code, fine-tuning fonts and pondering layouts with a smile. My passion is crafting trendy yet great user experiences for seamless digital journeys that engage and delight.</p>
+                <p className="deignDescription">With a solid foundation in user experience design and experience in user research, I specialize in crafting modern user experiences. My focus is on creating seamless digital journeys that prioritize the user, leaving a lasting impression of engagement and delight.</p>
             </div>
         </div>
 
