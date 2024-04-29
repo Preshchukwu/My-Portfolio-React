@@ -44,9 +44,9 @@ const ConnectSection = () => {
                     </form>
                 </div>
 
-                <div className="connectWithMeBottomRightContainer">
+                {/* <div className="connectWithMeBottomRightContainer">
 
-                </div>
+                </div> */}
             </div>
        </div>
     </div>

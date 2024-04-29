@@ -79,7 +79,7 @@
     background-color: #8b8b8b;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    background-image: url("../../public/QuoteGenerator.svg");
+    background-image: url("../assets/quotes.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@
     background-color: #8b8b8b;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    background-image: url("../../public/Unsplash.svg");
+    background-image: url("../assets/unsplash.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +103,7 @@
     background-color: #8b8b8b;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    background-image: url("../../public/Notes.svg");
+    background-image: url("../assets/note.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +115,7 @@
     background-color: #8b8b8b;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    background-image: url("../../public/ColorGenerator.svg");
+    background-image: url("../assets/ColorGenerator.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,7 @@
     background-color: #8b8b8b;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    background-image: url("../../public/RaynInteriors.svg");
+    background-image: url("../assets/commerce.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

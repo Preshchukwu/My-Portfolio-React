@@ -1,6 +1,13 @@
 import React from 'react'
 import './ProjectSection.css'
 import { Link } from 'react-router-dom'
+import commerce from '../assets/commerce.svg'
+import note from '../assets/note.svg'
+import playCompass from '../assets/playCompass.svg'
+import quotes from '../assets/quotes.svg'
+import raily from '../assets/raily.svg'
+import unsplash from '../assets/unsplash.svg'
+
 
 const ProjectSection = () => {
   return (
@@ -19,7 +26,7 @@ const ProjectSection = () => {
             <div className="firstRowOfProjects">
                 <div className="projectContainer">
                     <div className="imageContainerRandomQuotes">
-
+                
                     </div>
 
                     <div className="titleDescriptionAndLinkContainer">
@@ -60,7 +67,7 @@ const ProjectSection = () => {
                             </div>
                         </div>
 
-                        <Link className='viewProject' target='_blank' to={'hhttps://preshchukwu.github.io/Unsplash-clone/'}>
+                        <Link className='viewProject' target='_blank' to={'https://preshchukwu.github.io/Unsplash-clone'}>
                             <p>View Project</p>
                         </Link>
 
@@ -134,11 +141,11 @@ const ProjectSection = () => {
                     <div className="titleDescriptionAndLinkContainer">
                         <div className="titleAndDescriptionContainer">
                             <div className="titleContainer">
-                                <h3>Rayn Craft Landing Page</h3>
+                                <h3>E-commerce KPI tracking</h3>
                             </div>
     
                             <div className="descriptionContainer">
-                                <p>Landing page for an interior decoration agency Engage visitors with stunning visuals and compelling content.</p>
+                                <p>Empowers sales managers, and marketing executives to excel in their respective roles within the "Shop" e-commerce platform.</p>
                             </div>
                         </div>
 
