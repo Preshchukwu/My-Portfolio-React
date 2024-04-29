@@ -70,3 +70,45 @@
             font-weight: 500;
         }
 }
+
+@media(min-width: 577px ) and (max-width: 768px) {
+    .navMainContainer {
+        display: none;
+        flex-direction: row;
+        column-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .navigationLinksContainerTwo {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: start;
+        align-items: end;
+        position: absolute;
+        background-color: white;
+        top: 12%;
+        left: 59%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .navTwoContainer {
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .projectLink {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}

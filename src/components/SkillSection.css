@@ -132,3 +132,145 @@
             align-items: center;
         }
 }
+
+
+
+
+
+@media(min-width: 576px) and (max-width: 768px) {
+    .skillsSection {
+        width: 100%;
+        height: auto;
+        /* margin: 0 auto; */
+        padding: 30px 16px;
+        /* background-color: #ffffff; */
+    }
+
+    .skillsSectionMainDiv {
+        width: 100%;
+        height: auto;
+        padding: 60px 16px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5rem;
+
+    }
+
+    .skillsTextContainer {
+        width: fit-content;
+        height: auto;
+    }
+
+    .skillsTextContainer h2 {
+        font-size: 1.5rem;
+        color: #4831D4;
+    }
+
+    .skillIconContainer {
+        display: none;
+        /* width: fit-content;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 5rem; */
+    }
+
+    .skillIconContainertwo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 6rem;
+    }
+
+    .reduceImage {
+        width: 50%;
+    }
+
+    .firstRowOfSkillsIcon {
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        column-gap: 4rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+@media(min-width: 769px) and (max-width: 992px) {
+    .skillsSection {
+        width: 100%;
+        height: auto;
+        /* margin: 0 auto; */
+        padding: 30px 16px;
+        /* background-color: #ffffff; */
+    }
+
+    .skillsSectionMainDiv {
+        width: 100%;
+        height: auto;
+        padding: 60px 16px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 5rem;
+
+    }
+
+    .skillsTextContainer {
+        width: fit-content;
+        height: auto;
+    }
+
+    .skillsTextContainer h2 {
+        font-size: 1.5rem;
+        color: #4831D4;
+    }
+
+    .skillIconContainer {
+        display: none;
+        /* width: fit-content;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 5rem; */
+    }
+
+    .skillIconContainertwo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 6rem;
+    }
+
+    .reduceImage {
+        width: 50%;
+    }
+
+    .firstRowOfSkillsIcon {
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        column-gap: 4rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
